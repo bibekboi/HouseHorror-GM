@@ -35,10 +35,13 @@
   },
   "name":"HouseHorror-GM",
   "resources":[
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_lighting","path":"objects/obj_lighting/obj_lighting.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_main_room","path":"rooms/rm_main_room/rm_main_room.yy",},},
     {"id":{"name":"Ground_Combined","path":"sprites/Ground_Combined/Ground_Combined.yy",},},
     {"id":{"name":"spr_base_ground_tile","path":"sprites/spr_base_ground_tile/spr_base_ground_tile.yy",},},
+    {"id":{"name":"spr_lightsheet","path":"sprites/spr_lightsheet/spr_lightsheet.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"tileset_1","path":"tilesets/tileset_1/tileset_1.yy",},},
   ],
