@@ -42,6 +42,7 @@
     {"id":{"name":"Ground_Combined","path":"sprites/Ground_Combined/Ground_Combined.yy",},},
     {"id":{"name":"spr_base_ground_tile","path":"sprites/spr_base_ground_tile/spr_base_ground_tile.yy",},},
     {"id":{"name":"spr_lightsheet","path":"sprites/spr_lightsheet/spr_lightsheet.yy",},},
+    {"id":{"name":"spr_player_3","path":"sprites/spr_player_3/spr_player_3.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"tileset_1","path":"tilesets/tileset_1/tileset_1.yy",},},
   ],

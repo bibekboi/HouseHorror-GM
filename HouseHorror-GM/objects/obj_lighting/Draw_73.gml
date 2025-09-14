@@ -8,7 +8,7 @@ if(!surface_exists(surface_light))
 
 // Set target to our light surface
 surface_set_target(surface_light);
-draw_clear_alpha(c_black, 1); // Fill screen with black color
+draw_clear_alpha(c_black, 0.9); // Fill screen with black color
 
 
 // Draw light for torch holder
