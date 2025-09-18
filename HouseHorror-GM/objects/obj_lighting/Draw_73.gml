@@ -1,7 +1,6 @@
 /// @description Drawing after everything else
 
-var torch_flicker = irandom_range(0, sprite_get_number(spr_lightsheet) - 1); 
-
+image_speed = 0.06;
 
 // Create surface
 if(!surface_exists(surface_light))
@@ -20,13 +19,13 @@ gpu_set_blendmode(bm_subtract);
 with (obj_player)
 {
     var player_light_radius = 1.2;
-    draw_sprite_ext(spr_lightsheet, torch_flicker, x, y, player_light_radius, player_light_radius, 0, c_white, 1);
+    draw_sprite_ext(spr_lightsheet, other.image_index, x, y, player_light_radius, player_light_radius, 0, c_white, 1);
 }
 
 with (obj_torch)
 {
     var torch_radius = 1.5;
-    draw_sprite_ext(spr_lightsheet, torch_flicker, x, y, torch_radius, torch_radius, 0, c_white, 1);
+    draw_sprite_ext(spr_lightsheet, other.image_index, x, y, torch_radius, torch_radius, 0, c_white, 1);
 }
 
 // Resetting blend mode
